@@ -9,7 +9,7 @@ public class CADeserial {
         ArrayList<Object> list = new ArrayList<>();
         
         try{
-            FileInputStream fis = new FileInputStream("C:\\Users\\Rossanne S. Bossa\\Documents\\Files\\output.txt");
+            FileInputStream fis = new FileInputStream("C:\\Users\\Documents\\Files\\output.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
             list = (ArrayList) ois.readObject();
             ois.close();
