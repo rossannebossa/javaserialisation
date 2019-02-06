@@ -8,7 +8,7 @@ public class ArrayDeserial {
     public static void main (String [] args){
         ArrayList<Object> list = new ArrayList<>();
         try{
-            FileInputStream fis = new FileInputStream("C:\\Users\\Rossanne S. Bossa\\Documents\\Files\\output.txt");
+            FileInputStream fis = new FileInputStream("C:\\Users\\Files\\output.txt");
             ObjectInputStream ois = new ObjectInputStream(fis);
             list = (ArrayList) ois.readObject();
             ois.close();
