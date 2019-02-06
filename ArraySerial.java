@@ -12,7 +12,7 @@ public class ArraySerial {
         list.add("Haim");
         
         try{
-            FileOutputStream fos = new FileOutputStream("C:\\Users\\Rossanne S. Bossa\\Documents\\Files\\output.txt");
+            FileOutputStream fos = new FileOutputStream("C:\\Users\\Files\\output.txt");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(list);
             oos.close();
